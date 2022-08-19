@@ -10,7 +10,9 @@ Funcionalidade: Index Login
     Cenario: Username
         Dado que desejo entrar na tela inicial
         Quando abrir a pagina no browser
-        Entao devera aparecer o campo 'username'
+        E digitar 'teste@teste.com' no campo 'username'
+        E digitar 'confia@123' no campo 'password'
+        Entao deverar aparecer a mensagem 'usuario ou senha invalida'
 
     Cenario: Login
         Dado que desejo entrar na tela inicial

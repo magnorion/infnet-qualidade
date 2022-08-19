@@ -24,7 +24,7 @@
                     <button class="btn btn-primary mt-2"> login </button>
 
                     <!-- mensagem de alerta -->
-                    <p class="alert alert-success d-none"></p>
+                    <p class="alert d-none"></p>
                 </form>
             </div>
         </section>
@@ -42,11 +42,13 @@
 
             if (user.value === 'lucas@teste.com' && password.value === 'senha@123') {
                 const message = 'usuario logado';
-                alertSuccess.classList.remove('d-none');
+                alertSuccess.classList.remove('d-none', 'alert-error');
                 alertSuccess.innerHTML = message;
             } else {
-                alertSuccess.classList.add('d-none')
-                alertSuccess.innerHTML = '';
+                alertSuccess.classList.remove('d-none');
+                alertSuccess.classList.add('alert-error');
+                alertSuccess.classList.remove('d-none', 'alert-success');
+                alertSuccess.innerHTML = 'usuario ou senha invalida';
             }
         })
     </script>

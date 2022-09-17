@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto desenvolvido em aula de Processos, Qualidade e Agilidade em Software ministrada pelo professo Rafael Bento Cruz para exemplificar o uso do BDD com ferramenta Cypress.
+Projeto desenvolvido em aula de Processos, Qualidade e Agilidade em Software ministrada pelo professor Rafael Bento Cruz para exemplificar o uso do BDD com ferramenta Cypress.
 
 
 ## Execução

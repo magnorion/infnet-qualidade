@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index",
     "test": "cypress run",
-    "cypress:open": "cypress open"
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
